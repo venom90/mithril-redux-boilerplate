@@ -11,4 +11,4 @@ class App {
   }
 }
 
-export default App;
+export default connect((state) => ({test: state.test}), {})(App);
